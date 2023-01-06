@@ -1,0 +1,8 @@
+for i in range(int(input())):
+    a=list(map(int,input().split()))
+    z=a.count(0)
+    o=a.count(1)
+    if z>o:
+        print("NO")
+    else:
+        print("YES")
