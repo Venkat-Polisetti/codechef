@@ -1,0 +1,11 @@
+for i in range(int(input())):
+    m,h=map(int,input().split())
+    w=m//(h*h)
+    if w<=18:
+        print(1)
+    elif w >18 and w<=24:
+        print(2)
+    elif w>24 and w<=29:
+        print(3)
+    elif w>=30:
+        print(4)
