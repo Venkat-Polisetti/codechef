@@ -1,0 +1,9 @@
+for i in range(int(input())):
+    n=int(input())
+    f=int(0.1*n)
+    if f>100:
+        print(f)
+    elif 100>f:
+        print(100)
+    else:
+        print(f)
